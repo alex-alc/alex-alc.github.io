@@ -144,6 +144,7 @@ h3 {
 .right {
   background-color: rgba(34, 64, 92, 1);
   color: whitesmoke;
+  display: grid;
 }
 
 .text {
@@ -157,14 +158,14 @@ h3 {
   position: relative;
   height: 20vw;
   width: 20vw;
-  margin: auto auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
+  /* display: inline-flex; */
+  justify-self:center;
+  align-self:flex-start;
+  /* margin: 1em auto; */
 }
 
 @media (max-width:768px) {
