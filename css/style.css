@@ -1,4 +1,9 @@
-@font-face {
+/* 
+Написано ручкми Alex AL під час курсу фронтенду Дмитра Шевченко
+Слава Україні!
+*/
+
+@font-face {  /* тільки цей шматочок скопійовано :) */
 	font-family: 'icomoon';
 	src: url("../fonts/icomoon/icomoon.eot?srf3rx");
 	src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
@@ -131,6 +136,7 @@ h3 {
 
 .description {
 	font-size: 1em;
+	margin-bottom: .5em;
 	color: lightslategray;
 	display: flex;
 	justify-content: space-between;
@@ -145,8 +151,7 @@ h3 {
 	color: whitesmoke;
 	padding: 10px 20px;
 	display: grid;
-	grid-template-rows: minmax(10px, min-content);
-	vertical-align: baseline;
+	grid-auto-rows: minmax(10px, min-content);
 }
 
 .right div {
@@ -182,8 +187,6 @@ ul {
 
 .social-icons i {
 	margin: 1em 10px;
-	/* list-style-type: none; */
-	/* display: inline-block; */
 	color: whitesmoke;
 	background-color: rgba(34, 64, 92, 1);
 	border-radius: 3px;
@@ -210,9 +213,7 @@ ul {
 	content: "";
 }
 
-.envelop::before {
-	content: "\2709 \00A0";
-}
+/* todo: MEDIA запити */
 
 @media (min-width: 1200px) {
 	body {
@@ -266,7 +267,7 @@ ul {
 
 @media (orientation:landscape) {
 
-	/* Для примера чтобы не пустая секция была */
+	/* Просто для прикладу та для пам'яті, аби не пуста секція була */
 	.city {
 		font-weight: 500;
 	}
