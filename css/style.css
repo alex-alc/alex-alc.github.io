@@ -256,6 +256,10 @@ ul {
 		display: none;
 	}
 
+	.page::after {
+		opacity: .25;
+	}
+
 	.description,
 	.company {
 		display: block;
