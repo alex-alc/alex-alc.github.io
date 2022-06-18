@@ -966,7 +966,7 @@
 .icon-edit2:before {
     content: "\e99a";
 }
-.icon-email:before {
+.emailicon-:before {
     content: "\e99b";
 }
 .icon-emoji-happy:before {
@@ -1158,7 +1158,7 @@
 .icon-magnifying-glass2:before {
     content: "\e9da";
 }
-.icon-mail:before {
+.mailicon-:before {
     content: "\e9db";
 }
 .icon-man:before {
